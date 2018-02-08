@@ -5,6 +5,7 @@ require 'colorize'
 
 class CommandLineInteface
   BASE_PATH = "./fixtures/student-site/"
+  binding.pry
 
   def run
     make_students
